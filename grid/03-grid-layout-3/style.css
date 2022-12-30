@@ -89,3 +89,28 @@
   font-size: 13px;
   font-weight: normal;  
 }
+
+/* I added this */
+
+.container {
+  display: grid;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.menu ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.sidebar {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.nav {
+  display: grid;
+}
