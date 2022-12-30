@@ -8,6 +8,10 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+
 }
 
 .footer {
@@ -25,4 +29,56 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+/* ADDED BY ME */
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar {
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar a {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  min-height: calc(100vh - 72px - 72px);
+}
+
+.card {
+  width: 20%;
+  padding: 16px;
+  margin: 16px;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
